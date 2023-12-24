@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/2d-christmas-tree-concept_23-2148764676.jpg?size=626&ext=jpg&ga=GA1.2.418989808.1686480073&semt=ais">
+    <title>Merry Christmas || Adriano Affar</title>
+</head>
+
+<body>
+    <audio id="myAudio" amutoplay loop>
+        <source src="christmas-song.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>
+        <span style="--i:1;">M</span>
+        <span style="--i:2;">E</span>
+        <span style="--i:3;">R</span>
+        <span style="--i:4;">R</span>
+        <span style="--i:5;">Y</span>
+        <span style="--i:6;margin-left:5vw;">C</span>
+        <span style="--i:7;">H</span>
+        <span style="--i:8;">R</span>
+        <span style="--i:9;">I</span>
+        <span style="--i:10;">S</span>
+        <span style="--i:11;">T</span>
+        <span style="--i:12;">M</span>
+        <span style="--i:13;">A</span>
+        <span style="--i:14;">S</span>
+    </h2>
+
+    <script>
+        // Auto play audio
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('myAudio');
+            audio.play().then(() => {
+                // Autoplay started!
+            }).catch(error => {
+            });
+        });
+    </script>
+</body>
+
+</html>
